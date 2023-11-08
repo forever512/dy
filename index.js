@@ -1,3 +1,6 @@
+window.onDouyinServer = function() {
+    new Barrage()
+}
 const Barrage = class {
     wsurl = "ws://127.0.0.1:9527"
     timer = null
